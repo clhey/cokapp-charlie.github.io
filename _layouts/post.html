@@ -1,0 +1,36 @@
+---
+layout: index
+---
+
+<article id="post__content">
+  <h1 id="post__title" data-identifier="{{ page.date | date: "%Y%m%d" }}">{{ page.title }}</h1>
+  {{ content }}
+</article> <!-- end #post__content -->
+
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=http://cokapp-charlie.github.io{{ page.url }}&text={{ page.title }}" target="_blank"></a>
+  <a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=http://cokapp-charlie.github.io{{ page.url }}&title={{ page.title }}" target="_blank"></a>
+</div> <!-- end #post__share -->
+
+<div class="changyan">
+	<!--高速版，加载速度快，使用前需测试页面的兼容性-->
+	<div id="SOHUCS"></div>
+	<script>
+	  (function(){
+	    var appid = 'cyru7B7pF',
+	    conf = 'prod_c68ca39844aaf3acc86367daf941a87c';
+	    var doc = document,
+	    s = doc.createElement('script'),
+	    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+	    s.type = 'text/javascript';
+	    s.charset = 'utf-8';
+	    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+	    h.insertBefore(s,h.firstChild);
+	    window.SCS_NO_IFRAME = true;
+	  })()
+	</script>
+</div>
+
+
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Modified <a href="https://github.com/cokapp-charlie" target="_blank">Charlie</a></p>

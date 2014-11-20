@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
+
+    <title>你好Jekyll</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  </head>
+  <body>
+    <aside id="sidebar">
+      <nav id="tags">
+        <a href="/index.html" id="avatar"></a>
+
+        <ul id="tags__ul">
+          <li id="js-label1" class="tags__li tags-btn active">全部</li>
+          <li id="js-label2" class="tags__li tags-btn">前端</li>
+          <li id="js-label3" class="tags__li tags-btn">后端</li>
+          <li id="js-label4" class="tags__li tags-btn">正确的事</li>
+          <li id="js-label5" class="tags__li tags-btn">喜欢的事</li>
+          <li id="js-label6" class="tags__li tags-btn">未分类</li>
+        </ul>
+
+        <div id="tags__bottom">
+          <a href="mailto:charlie@cokapp.com" id="icon-email" class="tags-btn fontello"></a>
+          <a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
+        </div>
+      </nav> <!-- end #tags -->
+
+      <div id="posts-list">
+        <form action="" id="search-form">
+          <a href="/index.html" id="mobile-avatar"></a>
+          <!-- NOTE: input field is disabled by default -->
+          <input id="search-input" type="text" placeholder="Search..." disabled >
+        </form>
+
+        <nav id="pl__container">
+        
+          <a class="other pl__all" href="/other/2014/11/20/hello-jekyll.html"><span class="pl__circle"></span><span class="pl__title">你好Jekyll</span><span class="pl__date">Nov 2014</span></a>
+        
+          <a class="other pl__all" href="/other/2014/11/20/about.html"><span class="pl__circle"></span><span class="pl__title">关于</span><span class="pl__date">Nov 2014</span></a>
+        
+        </nav>
+      </div> <!-- end #posts-list -->
+    </aside> <!-- end #sidebar -->
+
+    <div id="post">
+      <div id="pjax">
+        <article id="post__content">
+  <h1 id="post__title" data-identifier="20141120">你好Jekyll</h1>
+  <h1 id="jekyll">Jekyll是什么</h1>
+<blockquote>
+  <p>Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。</p>
+</blockquote>
+
+</article> <!-- end #post__content -->
+
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=http://cokapp-charlie.github.io/other/2014/11/20/hello-jekyll.html&text=你好Jekyll" target="_blank"></a>
+  <a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=http://cokapp-charlie.github.io/other/2014/11/20/hello-jekyll.html&title=你好Jekyll" target="_blank"></a>
+</div> <!-- end #post__share -->
+
+<div class="changyan">
+	<!--高速版，加载速度快，使用前需测试页面的兼容性-->
+	<div id="SOHUCS"></div>
+	<script>
+	  (function(){
+	    var appid = 'cyru7B7pF',
+	    conf = 'prod_c68ca39844aaf3acc86367daf941a87c';
+	    var doc = document,
+	    s = doc.createElement('script'),
+	    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+	    s.type = 'text/javascript';
+	    s.charset = 'utf-8';
+	    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+	    h.insertBefore(s,h.firstChild);
+	    window.SCS_NO_IFRAME = true;
+	  })()
+	</script>
+</div>
+
+
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Modified <a href="https://github.com/cokapp-charlie" target="_blank">Charlie</a></p>
+      </div> <!-- end #pjax -->
+
+      <div id="post__toc-trigger">
+        <div id="post__toc">
+          <span id="post__toc-title">内容导航</span>
+          <ul id="post__toc-ul"></ul>
+        </div>
+      </div>
+    </div> <!-- end #post -->
+
+    <button id="js-fullscreen"><span id="icon-arrow" class="fontello"></span></button>
+
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="/assets/js/jquery.pjax.js"></script>
+    <script src="/assets/js/nprogress.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>承亮的日志</title>
+    <link>http://cokapp-charlie.github.io</link>
+    <atom:link href="http://cokapp-charlie.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <description>点滴记录 永久回忆</description>
+    <language>zh-cn</language>
+    <pubDate>Thu, 20 Nov 2014 22:42:22 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Nov 2014 22:42:22 +0800</lastBuildDate>
+
+    
+    <item>
+      <title>你好Jekyll</title>
+      <link>http://cokapp-charlie.github.io/other/2014/11/20/hello-jekyll.html</link>
+      <pubDate>20 Nov 2014</pubDate>
+      <author>place_your_name_here</author>
+      <guid>http://cokapp-charlie.github.io/other/2014/11/20/hello-jekyll</guid>
+      <description>&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll是什么&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://cokapp-charlie.github.io/other/2014/11/20/about.html</link>
+      <pubDate>20 Nov 2014</pubDate>
+      <author>place_your_name_here</author>
+      <guid>http://cokapp-charlie.github.io/other/2014/11/20/about</guid>
+      <description>&lt;h1 id=&quot;section&quot;&gt;这是什么&lt;/h1&gt;
+&lt;p&gt;这是一个jekyll驱动的静态站点！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
