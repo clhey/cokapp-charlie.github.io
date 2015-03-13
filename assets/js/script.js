@@ -15,7 +15,8 @@ tag2 = $('.frontend'),
 tag3 = $('.backend'),
 tag4 = $('.todo'),
 tag5 = $('.enjoy'),
-tag6 = $('.other');
+tag6 = $('.read');
+tag7 = $('.other');
 var sidebar = $('#sidebar'),
   container = $('#post'),
   content = $('#pjax'),
@@ -29,7 +30,7 @@ var clickHandler = function(k) {
     window['tag' + k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 6; i++) {
+for (var i = 1; i <= 7; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
