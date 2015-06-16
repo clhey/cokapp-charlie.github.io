@@ -18,13 +18,12 @@ categories: backend
 ##然后
 
 在该项目pom.xml中，添加`maven-archetype-plugin`插件：
-
-```
-<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-archetype-plugin</artifactId>
-	<version>2.2</version>
-</plugin>
+```xml
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-archetype-plugin</artifactId>
+		<version>2.2</version>
+	</plugin>
 ```
 
 ##最后
@@ -34,41 +33,41 @@ categories: backend
 其中，*archetype-resources*目录下是原型项目的所有文件：
 
 ```
-src
-├─main
-│  └─resources
-│      ├─archetype-resources
-│      │  └─src
-│      │      └─main
-│      │          ├─java
-│      │          │  ├─controllers
-│      │          │  │  └─api
-│      │          │  ├─mapper
-│      │          │  ├─model
-│      │          │  └─service
-│      │          ├─resources
-│      │          │  ├─config
-│      │          │  │  ├─addons
-│      │          │  │  │  └─security
-│      │          │  │  └─security
-│      │          │  ├─mybatis
-│      │          │  │  └─__artifactId__
-│      │          │  │      └─mappers
-│      │          │  ├─spring
-│      │          │  │  └─__artifactId__
-│      │          │  └─springmvc
-│      │          │      └─__artifactId__
-│      │          └─webapp
-│      │              └─WEB-INF
-│      │                  └─freemarker
-│      │                      └─__artifactId__
-│      │                          └─shenqing
-│      └─META-INF
-│          └─maven
-└─test
-    └─resources
-        └─projects
-            └─basic
+	src
+	├─main
+	│  └─resources
+	│      ├─archetype-resources
+	│      │  └─src
+	│      │      └─main
+	│      │          ├─java
+	│      │          │  ├─controllers
+	│      │          │  │  └─api
+	│      │          │  ├─mapper
+	│      │          │  ├─model
+	│      │          │  └─service
+	│      │          ├─resources
+	│      │          │  ├─config
+	│      │          │  │  ├─addons
+	│      │          │  │  │  └─security
+	│      │          │  │  └─security
+	│      │          │  ├─mybatis
+	│      │          │  │  └─__artifactId__
+	│      │          │  │      └─mappers
+	│      │          │  ├─spring
+	│      │          │  │  └─__artifactId__
+	│      │          │  └─springmvc
+	│      │          │      └─__artifactId__
+	│      │          └─webapp
+	│      │              └─WEB-INF
+	│      │                  └─freemarker
+	│      │                      └─__artifactId__
+	│      │                          └─shenqing
+	│      └─META-INF
+	│          └─maven
+	└─test
+	    └─resources
+	        └─projects
+	            └─basic
 ```
 
 如果原型项目足够简单，`骨架`就足够使用了，执行`mvn install`之后，我们就可在本地使用该`骨架`开始新项目了。否则继续下一步，进行`骨架`的加工。
